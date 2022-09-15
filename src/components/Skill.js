@@ -4,8 +4,8 @@ import styles from './Skill.module.css';
 const Skill = props => {
 	return (
 		<li>
-			{props.title}
-			<span className={styles.votes}>{props.votes}</span>
+			{props.name}
+			<span className={styles.votes}>4</span>
 		</li>
 	);
 };

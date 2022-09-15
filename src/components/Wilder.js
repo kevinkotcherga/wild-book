@@ -18,7 +18,7 @@ const Wilder = props => {
 			<h4>Wild Skills</h4>
 			<ul className={styles.skills}>
 				{props.skills.map(skill => (
-					<Skill title={skill.title} votes={skill.votes} />
+					<Skill name={skill.name} key={skill.index} />
 				))}
 			</ul>
 		</article>
